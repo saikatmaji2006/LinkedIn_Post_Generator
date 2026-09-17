@@ -2,7 +2,7 @@
 
 An AI-powered tool that generates professional LinkedIn posts using **LLM (Large Language Model)** with **few-shot learning**. Select a topic, language, and length — get a polished, ready-to-publish LinkedIn post in seconds.
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://linkedinpostgenerator-saikat.streamlit.app/)
 [![Python 3.11+](https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python&logoColor=white)](https://python.org)
 [![LangChain](https://img.shields.io/badge/LangChain-Framework-1C3C3C?logo=chainlink)](https://langchain.com)
 [![Groq](https://img.shields.io/badge/Groq-LLM%20API-F55036)](https://groq.com)
@@ -181,7 +181,7 @@ This project is open source and available under the [MIT License](LICENSE).
 ---
 
 <p align="center">
-  Built with ❤️ by <strong>Saikat</strong> | 
+  Built by <strong>Saikat</strong> | 
   <a href="https://www.linkedin.com/in/">LinkedIn</a> · 
   <a href="https://github.com/">GitHub</a>
 </p>
