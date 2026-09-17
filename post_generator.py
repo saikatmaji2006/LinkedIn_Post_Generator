@@ -34,5 +34,15 @@ def generate_post(length, language, topic):
             if i == 1:
                 break
 
+    else:
+        ex = fs.get_filtered_posts("medium","English","System Design")
+        #print(ex)
+        for i,e in enumerate(ex):
+            prompt += f"4) Use the writing style as per the following examples.\n\n Example {i} \n\n {e['Text']}"
+            if i==1:
+                break
+
+
     response = llm.invoke(prompt)
+    #print(prompt)
     return response.content

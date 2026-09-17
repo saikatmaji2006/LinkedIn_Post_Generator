@@ -19,7 +19,7 @@ def processed_posts(raw_file_path=None, processed_file_path=None):
         posts = json.load(file)
         for post in posts:
             metadata = extract_metadata(post["Text"])
-            x = post | metadatahttps://github.com/saikatmaji2006
+            x = post | metadata
             enriched_post.append(x)
 
     unified_tags = get_unified_tags(enriched_post)
