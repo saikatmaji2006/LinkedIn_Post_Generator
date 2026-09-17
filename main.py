@@ -124,12 +124,7 @@ def main():
             if st.button("📋 Copy to Clipboard"):
                 st.code(post, language=None)
 
-    st.markdown(
-        '<div class="footer">Built with ❤️ using '
-        '<a href="https://streamlit.io" target="_blank">Streamlit</a> &amp; '
-        '<a href="https://groq.com" target="_blank">Groq LLM</a></div>',
-        unsafe_allow_html=True,
-    )
+    
 
 
 if __name__ == "__main__":
